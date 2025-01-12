@@ -66,3 +66,132 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* lato-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./assets/fonts/lato-v24-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* lato-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./assets/fonts/lato-v24-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  background: white;
+  font-family: 'Lato';
+  font-weight: 400;
+  line-height: 1.75;
+  color: #000000;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 3rem 0 1.38rem;
+  line-height: 1.3;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 4.209rem;
+}
+
+h2 {
+  font-size: 3.157rem;
+}
+
+h3 {
+  font-size: 2.369rem;
+}
+
+h4 {
+  font-size: 1.777rem;
+}
+
+h5 {
+  font-size: 1.333rem;
+}
+
+small,
+.text_small {
+  font-size: 0.75rem;
+}
+
+body {
+  margin: 0;
+  background-color: #12171c;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 80px;
+}
+
+.headerContainer {
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: max-content;
+  border-bottom: 1px solid rgba(100, 100, 100, 0.9);
+  margin-bottom: 32px;
+}
+
+.header {
+  color: #292e32;
+  letter-spacing: 1.5;
+  background-color: white;
+  padding-left: 8px;
+  padding-right: 24px;
+}
+
+::-webkit-scrollbar {
+  width: 1rem;
+}
+
+::-webkit-scrollbar-thumb {
+  border: 1px solid #181c25;
+  background: #232936;
+  -webkit-box-shadow: 0 5px 15px rgb(0 0 0 / 50%);
+  box-shadow: 0 5px 15px rgb(0 0 0 / 50%);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #181c25;
+  -webkit-box-shadow: inset 0 0 5px #12171c;
+  box-shadow: inset 0 0 5px #12171c;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  height: auto;
+  color: white;
+  margin-top: 72px;
+  background: #1d2227;
+  border-radius: 4px;
+  box-shadow: 0px 30px 40px -20px black;
+  border-top: 1px solid white;
+  padding: 0 0 56px 0;
+}
