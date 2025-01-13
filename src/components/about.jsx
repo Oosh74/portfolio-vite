@@ -1,5 +1,5 @@
-import socketLogo from '../assets/images/socketio_transparent.png';
-import reduxLogo from '../assets/images/redux.png';
+import socketLogo from '../assets/images/socketio_transparent.webp';
+import reduxLogo from '../assets/images/redux.webp';
 import Skills from './skills';
 
 function About() {

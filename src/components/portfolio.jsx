@@ -1,6 +1,6 @@
-import bookShopper from '../assets/images/bookshoppericon.png';
-import drawBit from '../assets/images/drawbiticon.png';
-import dataDash from '../assets/images/datadashicon.png';
+import bookShopper from '../assets/images/bookshoppericon.webp';
+import drawBit from '../assets/images/drawbiticon.webp';
+import dataDash from '../assets/images/datadashicon.webp';
 import PortfolioCard from './portfolio-card';
 
 const cardData = [

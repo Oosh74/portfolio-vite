@@ -1,4 +1,4 @@
-import mastLogo from '../assets/images/mastodon-logo-scaled.png';
+import mastLogo from '../assets/images/mastodon-logo-scaled.webp';
 
 function Contact() {
   const handleClick = (link) => {

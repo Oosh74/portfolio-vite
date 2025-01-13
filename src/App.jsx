@@ -1,7 +1,4 @@
-// import { useState } from 'react'
 import { useRef } from 'react';
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/navbar';
 import About from './components/about';
@@ -10,7 +7,6 @@ import Contact from './components/contact';
 import Landing from './components/landing';
 
 function App() {
-  // const [count, setCount] = useState(0)
   const headerRef = useRef(null);
   const landingRef = useRef(null);
   const aboutRef = useRef(null);
