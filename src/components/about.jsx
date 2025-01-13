@@ -2,7 +2,7 @@ import socketLogo from '../assets/images/socketio_transparent.png';
 import reduxLogo from '../assets/images/redux.png';
 import Skills from './skills';
 
-function About(/*isVisible*/) {
+function About() {
   const skillsArr = [
     {
       name: 'JavaScript',

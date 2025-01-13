@@ -18,7 +18,7 @@
   justify-content: center;
   width: 100vw;
   height: 85vh;
-  background-image: url('/src/images/starmap-background\ \(1).webp');
+  background-image: url('./assets/images/starmap-background.webp');
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
