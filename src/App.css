@@ -5,7 +5,6 @@
 }
 
 .subHeader {
-  line-height: 1.7;
   margin-top: 32px;
   margin-bottom: 56px;
   color: #eceff1;
@@ -16,7 +15,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100vw;
+  flex-basis: 100%;
   height: 85vh;
   background-image: url('./assets/images/starmap-background.webp');
   background-size: cover;
@@ -112,7 +111,7 @@
 }
 
 .nav-links {
-  padding-left: 2em;
+  padding-left: 3.3em;
 }
 
 .selected {
@@ -234,25 +233,26 @@
 
 .cardContainer {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
   align-items: stretch;
+  justify-content: space-between;
+  gap: 24px;
+  margin: 40px;
 }
 
 .card {
-  position: relative; /* Add this line */
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
   border-radius: 4px;
   background: #12171c;
   color: white;
-  margin-right: 56px;
-  margin-left: 56px;
   padding-bottom: 32px;
+  flex-basis: calc(33.3% - 24px);
 }
 
 .card h3 {
@@ -339,7 +339,8 @@
 
 .cardBtn:hover {
   background-color: #39ace7;
-  transition: all 0.45s ease-in;
+  transition: all 0.2.25s ease-in;
+  border-color: #39ace7;
 }
 
 /* ----CONTACT----- */
@@ -455,6 +456,10 @@
 
 /* Tablets */
 @media (max-width: 1025px) {
+  .nav-links {
+    padding-left: 0.45em;
+  }
+
   .welcomeContainer {
     width: 100%;
   }
@@ -495,7 +500,7 @@
   }
 
   .nav-bar {
-    height: 75px;
+    max-height: 72px;
     width: 100%;
     margin: 0px;
     padding: 0px;

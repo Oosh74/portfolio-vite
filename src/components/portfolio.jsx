@@ -27,6 +27,31 @@ const cardData = [
     githubLink: 'https://github.com/Metallic-Bees/DrawBit',
     projectLink: 'https://drawbit.herokuapp.com/',
   },
+  // {
+  //   imgSrc: drawBit,
+  //   title: 'DrawBit',
+  //   description:
+  //     'A realtime multiplayer progressive web application inspired by the game pictionary.',
+  //   githubLink: 'https://github.com/Metallic-Bees/DrawBit',
+  //   projectLink: 'https://drawbit.herokuapp.com/',
+  // },
+  // {
+  //   imgSrc: drawBit,
+  //   title: 'DrawBit',
+  //   description:
+  //     'A realtime multiplayer progressive web application inspired by the game pictionary.',
+  //   githubLink: 'https://github.com/Metallic-Bees/DrawBit',
+  //   projectLink: 'https://drawbit.herokuapp.com/',
+  // },
+
+  // {
+  //   imgSrc: drawBit,
+  //   title: 'DrawBit',
+  //   description:
+  //     'A realtime multiplayer progressive web application inspired by the game pictionary.',
+  //   githubLink: 'https://github.com/Metallic-Bees/DrawBit',
+  //   projectLink: 'https://drawbit.herokuapp.com/',
+  // },
 ];
 
 const Portfolio = () => {
