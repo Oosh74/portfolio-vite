@@ -32,16 +32,16 @@ function App() {
       </div>
       {/* ----About----- */}
       <div className="wrapper">
-        <div ref={aboutRef}>
+        <div className='refWrapper' ref={aboutRef}>
           <About />
         </div>
         {/* ----Portfolio----- */}
-        <div ref={portfolioRef}>
+        <div className='refWrapper' ref={portfolioRef}>
           <Portfolio />
         </div>
         {/* ----Contact/Footer----- */}
-        <div ref={contactRef}>
-          <Contact />
+        <div className='refWrapper' ref={contactRef}>
+          <Contact/>
         </div>
       </div>
     </div>

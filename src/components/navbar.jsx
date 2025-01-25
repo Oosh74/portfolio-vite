@@ -1,6 +1,6 @@
-import { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 
-const Navbar = ({ /*headerProp,*/ ...props }) => {
+const Navbar = ({ headerProp, ...props }) => {
   const headerRef = useRef(null);
   const [visibleSection, setVisibleSection] = useState();
 
@@ -27,7 +27,7 @@ const Navbar = ({ /*headerProp,*/ ...props }) => {
       const { height: headerHeight } = getDimensions(headerRef.current);
       const scrollPosition = window.scrollY + headerHeight;
 
-      const selected = props.props.find(({ /*section,*/ ref }) => {
+      const selected = props.props.find(({ section, ref }) => {
         const ele = ref.current;
         if (ele) {
           const { offsetBottom, offsetTop } = getDimensions(ele);
