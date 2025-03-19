@@ -1,57 +1,40 @@
-import bookShopper from '../assets/images/bookshoppericon.webp';
-import drawBit from '../assets/images/drawbiticon.webp';
-import dataDash from '../assets/images/datadashicon.webp';
 import PortfolioCard from './portfolio-card';
 
 const cardData = [
   {
-    imgSrc: bookShopper,
-    title: 'BookShopper',
-    description: 'A mock e-commerce website featuring books.',
-    githubLink: 'https://github.com/Crafty-Cranberries/Book-Shopper',
-    projectLink: 'https://book-shopper.herokuapp.com/',
-  },
-  {
-    imgSrc: dataDash,
-    title: 'Data Dash',
-    description:
-      'A data dashboard that allows users to retrieve and visualize a data set. Under Construction.',
-    githubLink: 'https://github.com/Oosh74/Data_Dashboard',
-    projectLink: 'https://visualdatadash.herokuapp.com/',
-  },
-  {
-    imgSrc: drawBit,
     title: 'DrawBit',
     description:
       'A realtime multiplayer progressive web application inspired by the game pictionary.',
     githubLink: 'https://github.com/Metallic-Bees/DrawBit',
     projectLink: 'https://drawbit.herokuapp.com/',
   },
-  // {
-  //   imgSrc: drawBit,
-  //   title: 'DrawBit',
-  //   description:
-  //     'A realtime multiplayer progressive web application inspired by the game pictionary.',
-  //   githubLink: 'https://github.com/Metallic-Bees/DrawBit',
-  //   projectLink: 'https://drawbit.herokuapp.com/',
-  // },
-  // {
-  //   imgSrc: drawBit,
-  //   title: 'DrawBit',
-  //   description:
-  //     'A realtime multiplayer progressive web application inspired by the game pictionary.',
-  //   githubLink: 'https://github.com/Metallic-Bees/DrawBit',
-  //   projectLink: 'https://drawbit.herokuapp.com/',
-  // },
-
-  // {
-  //   imgSrc: drawBit,
-  //   title: 'DrawBit',
-  //   description:
-  //     'A realtime multiplayer progressive web application inspired by the game pictionary.',
-  //   githubLink: 'https://github.com/Metallic-Bees/DrawBit',
-  //   projectLink: 'https://drawbit.herokuapp.com/',
-  // },
+  {
+    title: 'BookShopper',
+    description: 'A mock e-commerce website featuring books.',
+    githubLink: 'https://github.com/Crafty-Cranberries/Book-Shopper',
+    projectLink: 'https://book-shopper.herokuapp.com/',
+  },
+  {
+    title: 'OS-RPS',
+    description:
+      'A simple Rock, Paper, Szicssors game with Old School RuneScape visuals.',
+    githubLink: 'https://github.com/Oosh74/Data_Dashboardps:',
+    projectLink: 'https://oosh74.github.io/os-rps/', 
+  }, 
+  {
+    title: 'Calculator',
+    description:
+      'A simple calculator website.',
+    githubLink: 'https://github.com/Oosh74/Calculator_OP',
+    projectLink: 'https://oosh74.github.io/Calculator_OP/',
+  },
+  {
+    title: 'Etch-a-Sketch',
+    description:
+      'A blocky canvas to draw on.',
+    githubLink: 'https://github.com/Oosh74/etch-a-sketch',
+    projectLink: 'https://oosh74.github.io/etch-a-sketch/',
+  },
 ];
 
 const Portfolio = () => {

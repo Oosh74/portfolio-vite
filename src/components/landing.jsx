@@ -13,11 +13,7 @@ function Landing(props) {
           Hi there! I&apos;m <span className="inlineColor"> Jared Usher</span>.
         </h1>
         <p className="subHeader">
-          I am passionate about crafting digital experiences that seamlessly
-          blend aesthetics and functionality. With a keen eye for design and a
-          strong foundation in full stack software engineering, I specialize in
-          bridging the gap between development and design. Learn more about me
-          below and thanks for stopping by!
+        I love creating digital experiences that look great and work smoothly. With a background in full-stack development and an eye for design, I focus on making development and design work together seamlessly. Learn more about me below—thanks for visiting!
         </p>
         <button
           className="welcomeButton"

@@ -75,17 +75,8 @@ function About() {
       </div>
       <div>
         <p className="contentBody">
-          I specialize in a variety of languages and tools such JavaScript, CSS,
-          React, Express, and PostgreSQL. You can take a look at the
-          technologies I use most frequently below. I enjoy breaking complex
-          problems down into simple solutions, and delivering elegant front end
-          experiences.<br></br> <br></br>By embracing both the artistic and
-          technical aspects of the digital landscape, I am dedicated to crafting
-          visually appealing, intuitive, and high-performing websites and
-          applications that captivate users while delivering seamless
-          functionality.I am always striving to improve, learn, and write
-          professional code. When I\`m not coding, I enjoy playing video games,
-          being active, and reading.
+        I work with JavaScript, CSS, React, Express, and PostgreSQL, among other tools. You can check out the technologies I use most often below. I enjoy solving complex problems with simple solutions and creating smooth, polished front-end experiences.
+I focus on both the creative and technical sides of web development, building visually appealing, intuitive, and high-performance websites and apps. I&apos;m always looking to improve, learn, and write better code. When I&apos;m not coding, I like playing video games, staying active, and reading
         </p>
       </div>
       <div>

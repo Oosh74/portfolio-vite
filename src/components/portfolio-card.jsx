@@ -1,5 +1,6 @@
+import codeIcon from '../assets/images/code.svg'
+
 const PortfolioCard = ({
-  imgSrc,
   title,
   description,
   githubLink,
@@ -9,7 +10,7 @@ const PortfolioCard = ({
   return (
     <div className="card">
       <div className="cardProfile">
-        <img src={imgSrc} alt={title} />
+        <img src={codeIcon} alt={title} />
       </div>
       <div className="cardBanner"></div>
       <div className="cardTitle">
