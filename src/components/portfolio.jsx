@@ -35,6 +35,13 @@ const cardData = [
     githubLink: 'https://github.com/Oosh74/etch-a-sketch',
     projectLink: 'https://oosh74.github.io/etch-a-sketch/',
   },
+  {
+    title: 'Dashboard',
+    description:
+      'A Dune-inspired dashboard.',
+    githubLink: 'https://github.com/Oosh74/op-dashboard',
+    projectLink: 'https://oosh74.github.io/op-dashboard/',
+  },
 ];
 
 const Portfolio = () => {
