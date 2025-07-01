@@ -14,6 +14,13 @@ const cardData = [
     githubLink: 'https://github.com/Crafty-Cranberries/Book-Shopper',
     projectLink: 'https://book-shopper.herokuapp.com/',
   },
+    {
+    title: 'Tic, Tac, Toe',
+    description:
+      'A simple game of tic-tac-toe.',
+    githubLink: 'https://github.com/Oosh74/op-tic-tac-toe',
+    projectLink: 'https://oosh74.github.io/op-tic-tac-toe/',
+  },
   {
     title: 'OS-RPS',
     description:
@@ -29,6 +36,13 @@ const cardData = [
     projectLink: 'https://oosh74.github.io/Calculator_OP/',
   },
   {
+    title: 'Digital Library',
+    description:
+      'A to-do app inspired reading list',
+    githubLink: 'https://github.com/Oosh74/op-library',
+    projectLink: 'https://oosh74.github.io/op-library/',
+  },
+  {
     title: 'Etch-a-Sketch',
     description:
       'A blocky canvas to draw on.',
@@ -42,6 +56,7 @@ const cardData = [
     githubLink: 'https://github.com/Oosh74/op-dashboard',
     projectLink: 'https://oosh74.github.io/op-dashboard/',
   },
+
 ];
 
 const Portfolio = () => {
